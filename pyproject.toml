@@ -1,0 +1,37 @@
+[build-system]
+requires = ["scikit-build-core>=0.11", "pybind11>=3.0"]
+build-backend = "scikit_build_core.build"
+
+
+[project]
+name = "minicpmo-cpp"
+version = "0.0.1"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+description = "Python bindings for MiniCPM-o.cpp inference."
+readme = "README.md"
+authors = [
+    { name = "360CVGroup" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pybind11>=3.0",
+    "pillow",
+    "moviepy",
+    "librosa"
+]
+
+[project.urls]
+homepage = "https://github.com/360CVGroup/MiniCPM-o.cpp"
+
+
+[tool.scikit-build]
+minimum-version = "build-system.requires"
+cmake.args = ["-DUSE_PYBINDING=ON", "-DLLAMA_CURL=OFF"]
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+
+[tool.ruff]
+line-length = 120

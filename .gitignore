@@ -1,0 +1,30 @@
+# build directories
+build
+build-*
+dist
+
+.vscode
+
+#clangd cache
+.cache
+
+# ignore models soft link and real dir and output dir
+# /models
+# /models/
+# /output/
+
+.DS_Store
+
+# temporary files
+*.gguf
+# *.mp4
+*.wav
+*.mov
+
+# python cache
+__pycache__
+
+*.nsys-rep
+
+# web demos log data
+web_demos/minicpm-o_2.6/log_data

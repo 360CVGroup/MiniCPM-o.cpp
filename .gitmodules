@@ -1,0 +1,4 @@
+[submodule "3rdparty/llama.cpp"]
+	path = 3rdparty/llama.cpp
+	url = https://github.com/360CVGroup/llama.cpp
+	branch = minicpmo-cpp

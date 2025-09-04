@@ -1,0 +1,1 @@
+It was modified from https://github.com/OpenBMB/MiniCPM-V/tree/main/web_demos/minicpm-o_2.6
