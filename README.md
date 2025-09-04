@@ -1,4 +1,4 @@
-# minicpmo-cpp
+# MiniCPM-o.cpp
 
 Inference of [MiniCPM-o 2.6](https://huggingface.co/openbmb/MiniCPM-o-2_6) in plain C/C++
 
@@ -19,8 +19,8 @@ Inference of [MiniCPM-o 2.6](https://huggingface.co/openbmb/MiniCPM-o-2_6) in pl
 Clone and initialize the repository.
 ```bash
 # Clone the repository
-git clone https://github.com/360CVGroup/minicpmo-cpp.git
-cd minicpmo-cpp
+git clone https://github.com/360CVGroup/MiniCPM-o.cpp.git
+cd MiniCPM-o.cpp
 # Initialize and update submodules
 git submodule update --init --recursive
 ```

@@ -1,4 +1,4 @@
-# minicpmo-cpp
+# MiniCPM-o.cpp
 
 [MiniCPM-o 2.6](https://huggingface.co/openbmb/MiniCPM-o-2_6) 的 C/C++ 推理实现
 
@@ -18,8 +18,8 @@
 克隆并初始化仓库。
 ```bash
 # 克隆仓库
-git clone https://github.com/360CVGroup/minicpmo-cpp.git
-cd minicpmo-cpp
+git clone https://github.com/360CVGroup/MiniCPM-o.cpp.git
+cd MiniCPM-o.cpp
 # 初始化并更新子模块
 git submodule update --init --recursive
 ```
