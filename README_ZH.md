@@ -3,7 +3,7 @@
 [MiniCPM-o 2.6](https://huggingface.co/openbmb/MiniCPM-o-2_6) 的 C/C++ 推理实现
 
 <h3 align="center">
-<a href="README.md"><b>English</b></a> | <b>中文</b> | <a href="./docs/install_ZH.md"><b>安装教程</b></a> | <a href="./docs/report_ZH.md"><b>部署报告</b></a>
+<a href="README.md"><b>English</b></a> | <b>中文</b> | <a href="./docs/install_zh.md"><b>安装教程</b></a> | <a href="./docs/report_zh.md"><b>部署报告</b></a>
 </h3>
 
 # 特性
@@ -39,7 +39,7 @@ source .venv/bin/activate
 uv pip install -e . --verbose
 ```
 
-有关详细的安装步骤，请参考 [安装指南](./docs/install_ZH.md)。
+有关详细的安装步骤，请参考 [安装指南](./docs/install_zh.md)。
 
 # 快速开始
 
@@ -57,7 +57,7 @@ uv pip install -e . --verbose
 # 在项目根路径
 python test/test_minicpmo.py --apm-path models/minicpmo-audio-encoder_Q4_K.gguf --vpm-path models/minicpmo-image-encoder_Q4_1.gguf --llm-path models/Model-7.6B-Q4_K_M.gguf --video-path assets/Skiing.mp4
 ```
-我们还提供了 C/C++ 接口。有关详细信息，请参考 [C++ 接口文档](docs/install_ZH.md#2-c-interface-optional)。
+我们还提供了 C/C++ 接口。有关详细信息，请参考 [C++ 接口文档](docs/install_zh.md#2-c-interface-optional)。
 
 ## 3. WebUI 演示
 实时视频交互演示：
@@ -89,14 +89,12 @@ pnpm run dev  # 启动服务器
 我们已在 NVIDIA Jetson Orin Nano Super 8G 嵌入式设备上部署了 MiniCPM-omni 模型。
 此项目支持在 NVIDIA Jetson Orin Nano Super 8Gb 的 `MAXN SUPER 模式` 下进行实时推理。
 
-<img src="./assets/jetson-orin-nano-super-developer-kit-bbm-l.jpg" alt="Jetson Orin Nano 开发板" style="width:50%;height:auto;" />
-
 如果您的嵌入式设备未运行 Super 系统包，请参考 [安装手册](https://www.jetson-ai-lab.com/initial_setup_jon.html) 了解如何在开发板上安装系统包。
 
 我们录制了一段视频，展示了模型在 Jetson 设备上的实时运行情况，未应用任何加速。
 [视频链接](https://beijing.xstore.qihoo.net/cv-service/minicpmo-cpp/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%AB%AF%E4%BE%A7%E9%83%A8%E7%BD%B2demo.mp4)
 
-有关 NVIDIA Jetson Orin Nano Super 的性能，包括推理时间和首标延迟数据，请参阅 [推理性能优化](./docs/report_EN.md#3-inference-performance-optimization)。
+有关 NVIDIA Jetson Orin Nano Super 的性能，包括推理时间和首标延迟数据，请参阅 [推理性能优化](./docs/report_en.md#3-inference-performance-optimization)。
 
 # 许可证
 此项目基于 Apache 2.0 许可证授权。

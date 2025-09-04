@@ -3,7 +3,7 @@
 Inference of [MiniCPM-o 2.6](https://huggingface.co/openbmb/MiniCPM-o-2_6) in plain C/C++
 
 <h3 align="center">
-<b>English</b> | <a href="README_ZH.md"> <b>中文</b> </a> | <a href="./docs/install_EN.md"><b>Install</b></a> | <a href="./docs/report_EN.md"><b>Report</b></a>
+<b>English</b> | <a href="README_ZH.md"> <b>中文</b> </a> | <a href="./docs/install_en.md"><b>Install</b></a> | <a href="./docs/report_en.md"><b>Report</b></a>
 </h3>
 
 
@@ -40,7 +40,7 @@ source .venv/bin/activate
 uv pip install -e . --verbose
 ```
 
-For detailed installation steps, please refer to the [installation guide](./docs/install_EN.md).
+For detailed installation steps, please refer to the [installation guide](./docs/install_en.md).
 
 # Quick Start
 
@@ -58,7 +58,7 @@ Run the script:
 # in project root path
 python test/test_minicpmo.py --apm-path models/minicpmo-audio-encoder_Q4_K.gguf --vpm-path models/minicpmo-image-encoder_Q4_1.gguf --llm-path models/Model-7.6B-Q4_K_M.gguf --video-path assets/Skiing.mp4
 ```
-We also provide a C/C++ interface. For details, please refer to the [C++ Interface Documentation](docs/install_EN.md#2-c-interface-optional).
+We also provide a C/C++ interface. For details, please refer to the [C++ Interface Documentation](docs/install_en.md#2-c-interface-optional).
 
 ## 3. WebUI Demo
 Real-time video interaction demo:
@@ -90,14 +90,12 @@ Open `https://localhost:8088/` in your browser for real-time video calls.
 We have deployed the MiniCPM-omni model on the NVIDIA Jetson Orin Nano Super 8G embedded device.
 This project supports real-time inference on NVIDIA Jetson Orin Nano Super 8Gb in `MAXN SUPER mode`.
 
-<img src="./assets/jetson-orin-nano-super-developer-kit-bbm-l.jpg" alt="Jetson Orin Nano 开发板" style="width:50%;height:auto;" />
-
 If your embedded device is not running the Super system package, please refer to the [installation manual](https://www.jetson-ai-lab.com/initial_setup_jon.html) for instructions on installing the system package on your board.
 
 We recorded a video of the model running on the Jetson device in real time, with no speed-up applied.
 [Video link](https://drive.google.com/file/d/1yZulWUqaJHNCPmfNaaPKm0UlHFb4-O9Z/view?usp=drive_link)
 
-For NVIDIA Jetson Orin Nano Super performance, including inference time and first-token latency data, see [Inference Performance Optimization](./docs/report_EN.md#3-inference-performance-optimization).
+For NVIDIA Jetson Orin Nano Super performance, including inference time and first-token latency data, see [Inference Performance Optimization](./docs/report_en.md#3-inference-performance-optimization).
 
 
 # License

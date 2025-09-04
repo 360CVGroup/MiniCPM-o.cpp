@@ -77,7 +77,9 @@ pnpm run dev  # start server
 ## 实机运行
 我们将MiniCPM-omni模型部署在NVIDIA Jetson Orin Nano Super 8G嵌入式设备上。
 此项目可在NVIDIA Jetson Orin Nano Super 8Gb的的`MAXN SUPER模式`下，实时推理。
-![Jetson Orin Nano Board](../assets/jetson-orin-nano-super-developer-kit-bbm-l.jpg)
+
+<img src="../assets/jetson-orin-nano-super-developer-kit-bbm-l.jpg" alt="Jetson Orin Nano 开发板" style="width:50%;height:auto;" />
+
 如您的嵌入式设备未运行在Super系统包上，可根据[安装手册](https://www.jetson-ai-lab.com/initial_setup_jon.html)中的相关步骤，在嵌入式板卡上进行系统包的安装。
 ### 1. 环境准备
 开机进入系统后，进行以下操作以释放更多内存并提高运行时性能：
@@ -94,4 +96,4 @@ sudo jetson_clocks # locks the clocks to their maximums
 [视频链接](https://drive.google.com/file/d/1yZulWUqaJHNCPmfNaaPKm0UlHFb4-O9Z/view?usp=drive_link)
 
 ### 4. 推理性能
-推理耗时及首token延迟数据见 [推理性能优化](report_ZH.md#3-推理性能优化) 章节。
+推理耗时及首token延迟数据见 [推理性能优化](report_zh.md#3-推理性能优化) 章节。

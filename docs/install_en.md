@@ -77,7 +77,9 @@ Open in your browser: `https://localhost:8088/` for real-time video calls.
 ## Deployment on Real Device
 We have deployed the MiniCPM-omni model on the NVIDIA Jetson Orin Nano Super 8G embedded device.
 This project supports real-time inference on NVIDIA Jetson Orin Nano Super 8Gb in `MAXN SUPER mode`.
-![Jetson Orin Nano Board](../assets/jetson-orin-nano-super-developer-kit-bbm-l.jpg)
+
+<img src="../assets/jetson-orin-nano-super-developer-kit-bbm-l.jpg" alt="Jetson Orin Nano Board" style="width:50%;height:auto;" />
+
 If your embedded device is not running the Super system package, please refer to the [installation manual](https://www.jetson-ai-lab.com/initial_setup_jon.html) for steps to install the system package on your board.
 ### 1. Environment Preparation
 After booting into the system, perform the following operations to free up more memory and improve runtime performance:
@@ -94,4 +96,4 @@ We recorded a video of the model running on the Jetson device, with no speed-up 
 [Video link](https://drive.google.com/file/d/1yZulWUqaJHNCPmfNaaPKm0UlHFb4-O9Z/view?usp=drive_link)
 
 ### 4. Inference Performance
-For inference time and first-token latency data, see [Inference Performance Optimization](report_EN.md#3-inference-performance-optimization).
+For inference time and first-token latency data, see [Inference Performance Optimization](report_en.md#3-inference-performance-optimization).
