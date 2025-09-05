@@ -92,7 +92,10 @@ pnpm run dev  # 启动服务器
 如果您的嵌入式设备未运行 Super 系统包，请参考 [安装手册](https://www.jetson-ai-lab.com/initial_setup_jon.html) 了解如何在开发板上安装系统包。
 
 我们录制了一段视频，展示了模型在 Jetson 设备上的实时运行情况，未应用任何加速。
-[视频链接](https://beijing.xstore.qihoo.net/cv-service/minicpmo-cpp/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%AB%AF%E4%BE%A7%E9%83%A8%E7%BD%B2demo.mp4)
+
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1fNa8zVEAy"><img src="./assets/bilibili_cover.png", width=70%></a>
+</div>
 
 有关 NVIDIA Jetson Orin Nano Super 的性能，包括推理时间和首标延迟数据，请参阅 [推理性能优化](./docs/report_en.md#3-inference-performance-optimization)。
 

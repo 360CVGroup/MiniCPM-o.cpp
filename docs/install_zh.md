@@ -93,7 +93,10 @@ sudo jetson_clocks # locks the clocks to their maximums
 
 ### 3. 演示视频：
 我们录制了模型运行在Jetson设备上实机运行的视频，视频全程无倍速。
-[视频链接](https://drive.google.com/file/d/1yZulWUqaJHNCPmfNaaPKm0UlHFb4-O9Z/view?usp=drive_link)
+
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1fNa8zVEAy"><img src="../assets/bilibili_cover.png", width=70%></a>
+</div>
 
 ### 4. 推理性能
 推理耗时及首token延迟数据见 [推理性能优化](report_zh.md#3-推理性能优化) 章节。

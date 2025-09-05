@@ -93,7 +93,10 @@ This project supports real-time inference on NVIDIA Jetson Orin Nano Super 8Gb i
 If your embedded device is not running the Super system package, please refer to the [installation manual](https://www.jetson-ai-lab.com/initial_setup_jon.html) for instructions on installing the system package on your board.
 
 We recorded a video of the model running on the Jetson device in real time, with no speed-up applied.
-[Video link](https://drive.google.com/file/d/1yZulWUqaJHNCPmfNaaPKm0UlHFb4-O9Z/view?usp=drive_link)
+
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1fNa8zVEAy"><img src="./assets/bilibili_cover.png", width=70%></a>
+</div>
 
 For NVIDIA Jetson Orin Nano Super performance, including inference time and first-token latency data, see [Inference Performance Optimization](./docs/report_en.md#3-inference-performance-optimization).
 

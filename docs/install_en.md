@@ -93,7 +93,10 @@ Refer to the sections [Model Conversion](#1-model-conversion), [Model Inference]
 
 ### 3. Demo Video:
 We recorded a video of the model running on the Jetson device, with no speed-up applied.
-[Video link](https://drive.google.com/file/d/1yZulWUqaJHNCPmfNaaPKm0UlHFb4-O9Z/view?usp=drive_link)
+
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1fNa8zVEAy"><img src="../assets/bilibili_cover.png", width=70%></a>
+</div>
 
 ### 4. Inference Performance
 For inference time and first-token latency data, see [Inference Performance Optimization](report_en.md#3-inference-performance-optimization).
