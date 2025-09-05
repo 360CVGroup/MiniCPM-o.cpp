@@ -13,6 +13,12 @@
 - 针对 NVIDIA Jetson Orin Nano Super 优化，实现实时视频流式处理。
 - 提供 Python 绑定、网页演示以及额外的集成可能性。
 
+<!-- --- -->
+
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1fNa8zVEAy"><img src="./assets/bilibili_cover.png", width=70%></a>
+</div>
+
 # 安装
 
 克隆并初始化仓库。
@@ -91,11 +97,7 @@ pnpm run dev  # 启动服务器
 
 如果您的嵌入式设备未运行 Super 系统包，请参考 [安装手册](https://www.jetson-ai-lab.com/initial_setup_jon.html) 了解如何在开发板上安装系统包。
 
-我们录制了一段视频，展示了模型在 Jetson 设备上的实时运行情况，未应用任何加速。
-
-<div align="center">
-  <a href="https://www.bilibili.com/video/BV1fNa8zVEAy"><img src="./assets/bilibili_cover.png", width=70%></a>
-</div>
+我们录制了一段[视频](https://www.bilibili.com/video/BV1fNa8zVEAy)，展示了模型在 Jetson 设备上的实时运行情况，未应用任何加速。
 
 有关 NVIDIA Jetson Orin Nano Super 的性能，包括推理时间和首标延迟数据，请参阅 [推理性能优化](./docs/report_en.md#3-inference-performance-optimization)。
 
