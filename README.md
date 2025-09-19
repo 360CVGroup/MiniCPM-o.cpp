@@ -54,6 +54,7 @@ For detailed installation steps, please refer to the [installation guide](./docs
 
 Use Pre-converted and Quantized gguf Models (Recommended).
 link: [Google Drive](https://drive.google.com/drive/folders/1xmkPHCzClJolUsEG_J6HZCATurjo3mDt?usp=sharing)
+or [ModelScope](https://www.modelscope.cn/models/kkssss/MiniCPM-o.cpp)
 
 Download and place all models in the `models/` directory.
 

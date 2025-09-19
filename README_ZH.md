@@ -52,7 +52,7 @@ uv pip install -e . --verbose
 ## 1. 模型准备
 
 使用预转换和量化的 gguf 模型（推荐）。
-链接：[模型文件](http://beijing.xstore.qihoo.net/cv-service/minicpmo-cpp/models.tar)
+链接：[ModelScope](https://www.modelscope.cn/models/kkssss/MiniCPM-o.cpp)
 
 下载并将所有模型放置在 `models/` 目录中。
 
