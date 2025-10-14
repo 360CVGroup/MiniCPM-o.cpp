@@ -21,6 +21,8 @@ source .venv/bin/activate # 激活虚拟环境
 # source .venv/bin/activate.fish  # for fish shell
 
 uv pip install -e . --verbose # 本地安装
+# 如果设备支持CUDA且使用VMM时报错`CUDA error: out of memory`（详见[issue#2](https://github.com/360CVGroup/MiniCPM-o.cpp/issues/2)），请使用以下命令进行安装：
+# CMAKE_ARGS="-DUSE_PYBINDING=ON;-DLLAMA_CURL=OFF;-DGGML_CUDA_NO_VMM=ON" uv pip install -e . --verbose
 ```
 
 启动脚本：
