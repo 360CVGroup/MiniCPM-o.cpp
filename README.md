@@ -40,10 +40,13 @@ pip install uv
 # Create and activate a virtual environment
 uv venv
 source .venv/bin/activate
-# For fish shell, use: source .venv/bin/activate.fish
+# For fish shell, use:
+# source .venv/bin/activate.fish
 
 # Install the package in editable mode
 uv pip install -e . --verbose
+# If your device supports CUDA and encounters `CUDA error: out of memory` when using VMM (see [issue#2](https://github.com/360CVGroup/MiniCPM-o.cpp/issues/2)), please use the following command for installation:
+# CMAKE_ARGS="-DUSE_PYBINDING=ON;-DLLAMA_CURL=OFF;-DGGML_CUDA_NO_VMM=ON" uv pip install -e . --verbose
 ```
 
 For detailed installation steps, please refer to the [installation guide](./docs/install_en.md).
